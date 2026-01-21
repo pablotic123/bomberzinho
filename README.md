@@ -1,4 +1,4 @@
-# 💣 Bomberzinho 64px
+# 💣 Bombinho
 
 Um jogo multiplayer de arena em tempo real inspirado no clássico Bomberman. O projeto utiliza **Node.js** com **Socket.io** para a comunicação entre jogadores e a engine **Phaser 3** para renderização gráfica e física no navegador.
 
@@ -25,9 +25,9 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 ### Instalação
 1. Clone o repositório:
-   git clone [https://github.com/pablotic123/bomberzinho.git](https://github.com/pablotic123/bomberzinho.git)
+   git clone [https://github.com/pablotic123/bombinho.git](https://github.com/pablotic123/bombinho.git)
 2. Entre na pasta do projeto:
-   cd bomberzinho
+   cd bombinho
 3. Instale as dependências:
    npm install
 
