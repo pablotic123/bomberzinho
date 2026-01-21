@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const MAP_WIDTH = 15;
 const MAP_HEIGHT = 13;
 
@@ -144,4 +144,4 @@ io.on('connection', (socket) => {
 });
 
 app.use(express.static(path.join(__dirname, '..', 'client')));
-server.listen(PORT, () => console.log(`Servidor Bombinho rodando!`));
+server.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
